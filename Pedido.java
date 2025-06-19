@@ -48,7 +48,7 @@ public class Pedido{
         System.out.println(" ");
         for(ItemPedido item : pedido){
             System.out.println(item.categoria + " " + item.descricao + " " + item.quantidade);
-        }        leia.close();
+        }        
     }
 }
  
